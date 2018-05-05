@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BTSDigital</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="FACEBOOK_APP_ID">365267520625800</string>
+    <string name="ACCOUNT_KIT_CLIENT_TOKEN">ffede57bca56c111400ef191f39eb91d</string>
+
+    <string name="action_settings">Settings</string>
+</resources>
