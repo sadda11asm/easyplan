@@ -3,21 +3,17 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="Smart seating" />
-        <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Выбор ресторана" />
-        <item
             android:id="@+id/nav_slideshow"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="Список гостей" />
+            android:title="Рассадка гостей" />
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Список Гостей" />
         <item
             android:id="@+id/nav_manage"
             android:icon="@drawable/ic_menu_manage"
-            android:title="Дата" />
+            android:title="Основная информация" />
     </group>
 
     <item android:title="Communicate">
@@ -33,4 +29,17 @@
         </menu>
     </item>
 
+    <item android:title="End">
+        <menu>
+            <item
+                android:id="@+id/nav_delete"
+                android:icon="@drawable/add"
+                android:title="Delete Event"/>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/guest"
+                android:title="Log out"/>
+
+        </menu>
+    </item>
 </menu>

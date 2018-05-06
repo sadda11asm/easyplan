@@ -91,7 +91,7 @@ public class LoginActivity extends AppCompatActivity {
 
 
     private void launchAccountActivity() {
-        Intent intent = new Intent(this, MainActivity.class);
+        Intent intent = new Intent(this, SmartSeatingActivity.class);
         startActivity(intent);
         finish();
     }
